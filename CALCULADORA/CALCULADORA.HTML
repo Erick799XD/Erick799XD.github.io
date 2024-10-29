@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="OPERACIONES.JS"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="card mx-auto" style="width: 20rem;">
+            <img src="IconoCalculadora.png" class="card-img-top" alt="Calculadora" width="200" height="200">
+            <div class="card-body">
+                <h5 class="card-title text-center">CALCULADORA</h5>
+                <form name="form" action="" method="get">
+                    <div class="form-group">
+                        <label for="num1">Introduce el número 1</label>
+                        <input type="text" class="form-control" id="num1" name="num1" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="num2">Introduce el número 2</label>
+                        <input type="text" class="form-control" id="num2" name="num2" required>
+                    </div>
+                    <div class="text-center">
+                        <button type="button" class="btn btn-primary" onclick="suma()">Suma</button>
+                        <button type="button" class="btn btn-danger" onclick="resta()">Resta</button>
+                        <button type="button" class="btn btn-success" onclick="multi()">Multi</button>
+                        <button type="button" class="btn btn-warning" onclick="division()">División</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
